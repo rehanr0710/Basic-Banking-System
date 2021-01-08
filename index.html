@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic Banking System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <!-- Internal stylesheet -->
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html{
+        height: 100%;
+      }
+      body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #333;
+        background-image: linear-gradient(40deg, #f802f5, #1c79e2);
+        background-repeat: no-repeat;
+        height: 100%;
+      }
+
+      .box{
+        width: 80%;
+        height: 600px;
+        display: inline-block;
+        margin: 50px 10%;
+        background-color: #fff;
+        box-shadow: 0 27px 87px rgba(256, 256, 256, 0.2);
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .box-img{
+        float: left;
+        width: 45%;
+        height: 600px;
+        background-color: rgba(224, 223, 223, 0.747);
+        background-image:url('images/logo_small.png');
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      .box-text{
+        width: 55%;
+        float: left;
+        padding-left: 35px;
+      }
+      
+      .tab {
+        display: inline-block;
+        margin-left: 70px;
+      }
+      .box-text p{
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .box-text h1{
+        font-size: 48px;
+        font-weight: bold;
+        color: #2e2e2e;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+      .box-text h3{
+        font-size: 16px;
+        font-weight: lighter;
+        color: #2e2e2e;
+        margin-left: 300px;
+      }
+      .box-text h2{
+        font-size: 24px;
+        font-weight: bolder;
+        color: #2e2e2e;
+        margin-left: 400px;
+        margin-bottom: 15px;
+      }
+      .box-text .social{
+        margin-top: 20px;
+        margin-left: 430px;
+      }
+      .box-text .social a{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(to left, #f802f5, #1c79e2);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 28px;
+        text-align: center;
+        line-height: 50px;
+        margin: 0 15px 0 0;
+        transition: all ease 0.5s;
+      }
+      .box-text .social a:hover{
+        transform: rotate(360deg);
+      }
+      .get-started{
+        position: absolute;
+        text-decoration: none;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-left: 80px;
+        color: #fff;
+        font-size: 24px;
+        text-transform: initial;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+        background: linear-gradient(to right, #f802f5, #1c79e2, #f802f5, #f802f5);
+        background-size: 400%;
+        border-radius: 30px;
+        transition: all ease 0.3s;
+      }
+      .get-started:hover{
+        text-decoration: none;
+        background: linear-gradient(to left, #f802f5, #1c79e2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="box-img">
+          <!-- <img src="images/home.jpeg"> -->
+        </div>
+        <div class="box-text">
+          <h1>Basic Banking System</h1>
+          <h3>Presented By-</h3>
+          <h2>Rehan Rachbhare</h2>
+          <p><span class="tab"></span>Basic Banking System presented by Rehan Rachbhare powered by <strong><a href="https://www.thesparksfoundationsingapore.org">The Sparks Foundation</a></strong> depicts a working model of banking system.</p>
+          <p><span class="tab"></span>In this GRIP intership program, we will see how the payment can be between customers.</p>
+          <p><span class="tab"></span><span class="tab"></span>&nbsp&nbsp&nbsp<img src ="images/bank.jpg"></p>
+          <p><span class="tab"></span><span class="tab"></span><span class="tab"></span>&nbsp&nbsp&nbsp<a class="get-started" href="assets/viewCustomers.php">Get Started</a></p>
+          <!-- <p><a href="https://www.thesparksfoundationsingapore.org">The Sparks Foundation</a>.</p> -->
+          
+          <div class="social">
+              <a href="mailto:rehan.br.10@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/rehan-rachbhare-b534761a0/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://github.com/rehanr0710"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
